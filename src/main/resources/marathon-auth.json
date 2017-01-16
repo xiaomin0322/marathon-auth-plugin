@@ -3,7 +3,7 @@
             "user": "dev1",
             "password": "dev1",
             "permissions": [
-              { "allowed": "view", "on": "/" }
+              { "allowed": "view", "on": "/dev1" }
             ]
           },
           {

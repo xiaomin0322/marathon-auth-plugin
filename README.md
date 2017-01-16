@@ -21,5 +21,34 @@ Start Marathon with the following flags: -Dmarathon.auth.conf=/etc/marathon/auth
 -Djava.ext.dirs path where path is the directory in which the plugin jars are stored.
 -Dmarathon.auth.conf conf.json where conf.json is the full path of the plugin configuration file.
 
-
+#marathon-auth.json
+ [
+          {
+            "user": "dev1",
+            "password": "dev1",
+            "permissions": [
+              { "allowed": "view", "on": "/dev1" }
+            ]
+          },
+          {
+            "user": "dev3",
+            "password": "dev3",
+            "permissions": [
+              { "allowed": "create", "on": "/dev3/" },
+              { "allowed": "update", "on": "/dev3/" },
+              { "allowed": "delete", "on": "/dev3/" },
+              { "allowed": "view", "on": "/" }
+            ]
+          },
+          {
+            "user": "admin",
+            "password": "admin",
+            "permissions": [
+              { "allowed": "create", "on": "/" },
+              { "allowed": "update", "on": "/" },
+              { "allowed": "delete", "on": "/" },
+              { "allowed": "view", "on": "/" }
+            ]
+          }
+ ]
 
