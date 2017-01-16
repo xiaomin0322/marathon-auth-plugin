@@ -1,3 +1,6 @@
+# marathon-version 1.3.6
+
+
 # marathon-auth-plugin
 
 This plugin allows to delegate Marathon authentication to an external
