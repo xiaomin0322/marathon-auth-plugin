@@ -22,6 +22,10 @@ Start Marathon with the following flags: -Dmarathon.auth.conf=/etc/marathon/auth
 -Dmarathon.auth.conf conf.json where conf.json is the full path of the plugin configuration file.
 
 #marathon-auth.json
+
+https://github.com/xiaomin0322/marathon-auth-plugin/blob/master/src/main/resources/marathon-auth.json
+
+
  [
           {
             "user": "dev1",
