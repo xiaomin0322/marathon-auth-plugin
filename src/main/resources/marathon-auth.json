@@ -3,7 +3,10 @@
             "user": "dev1",
             "password": "dev1",
             "permissions": [
-              { "allowed": "view", "on": "/dev1" }
+              { "allowed": "create", "on": "/dev3" },
+              { "allowed": "update", "on": "/dev3" },
+              { "allowed": "delete", "on": "/dev3" },
+              { "allowed": "view", "on": "/dev3" }
             ]
           },
           {
@@ -13,6 +16,16 @@
               { "allowed": "create", "on": "/dev3/" },
               { "allowed": "update", "on": "/dev3/" },
               { "allowed": "delete", "on": "/dev3/" },
+              { "allowed": "view", "on": "/" }
+            ]
+          },
+          {
+            "user": "deploy",
+            "password": "deploy",
+            "permissions": [
+              { "allowed": "create", "on": "/" },
+              { "allowed": "update", "on": "/" },
+              { "allowed": "delete", "on": "/" },
               { "allowed": "view", "on": "/" }
             ]
           },
