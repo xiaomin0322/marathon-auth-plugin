@@ -1,0 +1,31 @@
+ [
+          {
+            "user": "dev1",
+            "password": "dev1",
+            "permissions": [
+              { "allowed": "view", "on": "/" }
+            ]
+          },
+          {
+            "user": "dev3",
+            "password": "dev3",
+            "permissions": [
+              { "allowed": "create", "on": "/dev3/" },
+              { "allowed": "update", "on": "/dev3/" },
+              { "allowed": "delete", "on": "/dev3/" },
+              { "allowed": "view", "on": "/" }
+            ]
+          },
+          {
+            "user": "admin",
+            "password": "admin",
+            "permissions": [
+              { "allowed": "create", "on": "/" },
+              { "allowed": "update", "on": "/" },
+              { "allowed": "delete", "on": "/" },
+              { "allowed": "view", "on": "/" }
+            ]
+          }
+ ]
+  
+	  
