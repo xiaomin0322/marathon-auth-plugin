@@ -22,6 +22,7 @@ Start Marathon with the following flags: -Dmarathon.auth.conf=/etc/marathon/auth
 
 
 -Djava.ext.dirs path where path is the directory in which the plugin jars are stored.
+
 -Dmarathon.auth.conf conf.json where conf.json is the full path of the plugin configuration file.
 
 #marathon-auth.json
