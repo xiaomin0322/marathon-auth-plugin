@@ -18,7 +18,7 @@ maven package
 #Using a Plugin
 
 Run maven clean pack in the repository's root directory.
-Start Marathon with the following flags: -Dmarathon.auth.conf=/etc/marathon/auth.json  -Djava.ext.dirs=/etc/marathon/plugin
+Start Marathon with the following flags: -Dmarathon.auth.conf=/etc/marathon/marathon-auth.json  -Djava.ext.dirs=/etc/marathon/plugin
 
 
 -Djava.ext.dirs path where path is the directory in which the plugin jars are stored.
